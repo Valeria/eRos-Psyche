@@ -1,7 +1,7 @@
 # eRos & Psyche
 ### **Open Source Dildo running on the ESP32 Platform**
 
-![3D PCB Render](Images/eROS.png?raw=true "PCB Render")
+![Hello!](Images/Dong.jpeg?raw=true "Hi!")
 ![Licenses](Images/LICENSE-INFO.png?raw=true "License Information")
 
 V1.0 Attaches to a **ESP32-DevKitC-V4**, **check pinout to make sure it coincides**.
