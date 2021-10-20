@@ -1,9 +1,18 @@
 # eRos-Psyche
 ### **Open Source Dildo running on the ESP32 Platform**
 
-![Alt text](Images/eROS.png?raw=true "Title")
+![3D PCB Render](Images/eROS.png?raw=true "PCB Render")
 
 V1.0 Attaches to a **ESP32-DevKitC-V4**, **check pinout to make sure it coincides**.
+
+It's meant to drive three (or less) **3.3v motors, max 1A per PWM output**.
+Use with Li-Po or Li-Ion **3.7v nominal voltage batteries**.
+
+Connects to a **Blynk.io** server, which can be self-hosted, otherwise, use the free Blynk Cloud server or contact me for a spot on mine.
+
+Mobile app can be recreated by scanning the following QR code on the Blynk phone app:
+
+![Blynk Project QR](Images/blynkQR.png?raw=true "Scan this on Blynk app")
 
 Hardware files are in the **eRos** directory, meant to be edited on **KiCad v5.0 or higher**.
 
@@ -22,3 +31,5 @@ Firmware files are in the **Psyche** directory, if you open the project on Platf
  - adafruit/Adafruit_VL53L0X@^1.1.1
 
 Firmware.bin must be built with the **huge_app.csv** partition scheme.
+
+Have fun!
